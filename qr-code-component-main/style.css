@@ -9,8 +9,14 @@
 
 body{
     background-color: var(--light-gray);
-    max-width: 1440px;
+    /* max-width: 1440px; */
     font-family: "Outfit",sans-serif;
+    min-height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .all{
@@ -20,7 +26,7 @@ body{
     width: 320px;
     height: 497px;
     background-color: var(--white);
-    margin: auto;
+    margin: 0 auto;
     padding: auto;
     border-radius: 20px;
 }
